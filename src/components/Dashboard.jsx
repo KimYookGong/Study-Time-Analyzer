@@ -114,75 +114,7 @@ const Dashboard = ({ logs }) => {
         </div>
       </div>
 
-      <style jsx>{`
-        .dashboard {
-          display: flex;
-          flex-direction: column;
-          gap: 24px;
-        }
 
-        .kpi-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-          gap: 20px;
-        }
-
-        .kpi {
-          display: flex;
-          align-items: center;
-          gap: 20px;
-          padding: 20px;
-        }
-
-        .kpi-icon {
-          width: 50px;
-          height: 50px;
-          border-radius: 12px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-
-        .bg-primary-soft { background: rgba(99, 102, 241, 0.1); }
-        .bg-secondary-soft { background: rgba(168, 85, 247, 0.1); }
-        .bg-success-soft { background: rgba(16, 185, 129, 0.1); }
-        .bg-accent-soft { background: rgba(244, 63, 94, 0.1); }
-
-        .kpi-label {
-          color: var(--text-muted);
-          font-size: 14px;
-          margin-bottom: 4px;
-        }
-
-        .kpi-value {
-          font-size: 24px;
-          font-weight: 700;
-        }
-
-        .charts-grid {
-          display: grid;
-          grid-template-columns: 2fr 1fr;
-          gap: 24px;
-        }
-
-        .chart-container h3 {
-          margin-bottom: 24px;
-          font-size: 18px;
-        }
-
-        .chart-wrapper {
-          height: 300px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-
-        @media (max-width: 900px) {
-          .charts-grid {
-            grid-template-columns: 1fr;
-          }
-        }
-      `}</style>
     </div>
   );
 };

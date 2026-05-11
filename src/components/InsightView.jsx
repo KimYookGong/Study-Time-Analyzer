@@ -44,72 +44,7 @@ const InsightView = ({ logs }) => {
         )}
       </div>
 
-      <style jsx>{`
-        .insight-view {
-          max-width: 900px;
-          margin: 0 auto;
-        }
 
-        .insight-header {
-          display: flex;
-          align-items: center;
-          gap: 20px;
-          margin-bottom: 40px;
-        }
-
-        .insights-grid {
-          display: flex;
-          flex-direction: column;
-          gap: 20px;
-        }
-
-        .insight-card {
-          display: flex;
-          gap: 24px;
-          padding: 32px;
-          align-items: flex-start;
-        }
-
-        .insight-icon {
-          width: 48px;
-          height: 48px;
-          border-radius: 12px;
-          background: rgba(255, 255, 255, 0.05);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-shrink: 0;
-        }
-
-        .insight-content h3 {
-          font-size: 18px;
-          margin-bottom: 12px;
-        }
-
-        .insight-content p {
-          color: var(--text);
-          line-height: 1.6;
-          font-size: 16px;
-        }
-
-        .action-card {
-          background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(99, 102, 241, 0.1));
-          border: 1px solid rgba(16, 185, 129, 0.2);
-        }
-
-        .action-btn {
-          margin-top: 20px;
-          padding: 10px 20px;
-          border-radius: 8px;
-          background: var(--success);
-          color: white;
-          border: none;
-          font-weight: 600;
-          font-size: 14px;
-        }
-
-        .text-muted { color: var(--text-muted); }
-      `}</style>
     </div>
   );
 };
